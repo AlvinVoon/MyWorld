@@ -7,7 +7,7 @@
 	import { inject } from '@vercel/analytics';
  
 	inject({ mode: dev ? 'development' : 'production' });
-	
+
 	// Highlight JS
 	import hljs from 'highlight.js/lib/core';
 	import 'highlight.js/styles/github-dark.css';
@@ -57,7 +57,7 @@
 							</svg>
 						</span>
 					</button>
-					<strong class="text-xl uppercase">Skeleton</strong>
+					<strong class="text-xl uppercase">My World</strong>
 				</div>
 			</svelte:fragment>
 		</AppBar>
