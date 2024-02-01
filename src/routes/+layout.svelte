@@ -5,6 +5,7 @@
 	import { initializeStores, Drawer, getDrawerStore } from '@skeletonlabs/skeleton';
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
+	import { LightSwitch } from '@skeletonlabs/skeleton';
  
 	inject({ mode: dev ? 'development' : 'production' });
 
@@ -59,6 +60,7 @@
 					</button>
 					<strong class="text-xl uppercase">My World</strong>
 				</div>
+				<LightSwitch/>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
